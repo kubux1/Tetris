@@ -1,0 +1,55 @@
+﻿Build started 2016-01-11 14:48:39.
+     1>Project "D:\Studia\PP\szablon2\projekt2vs15.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (projekt2vs10.vcxproj, projekt2vs13.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         D:\Pliki programów (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I.\sdl\include\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\studia\pp\szablon2\main.cpp(460): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>d:\studia\pp\szablon2\main.cpp(630): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>d:\studia\pp\szablon2\main.cpp(637): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>d:\studia\pp\szablon2\main.cpp(639): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>d:\studia\pp\szablon2\main.cpp(641): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>d:\studia\pp\szablon2\main.cpp(643): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>d:\studia\pp\szablon2\main.cpp(645): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>d:\studia\pp\szablon2\main.cpp(647): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>d:\studia\pp\szablon2\main.cpp(649): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>d:\studia\pp\szablon2\main.cpp(661): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+     1>d:\studia\pp\szablon2\main.cpp(461): warning C4101: 'map_size1': unreferenced local variable
+     1>d:\studia\pp\szablon2\main.cpp(136): warning C4715: 'check_col_rot': not all control paths return a value
+     1>d:\studia\pp\szablon2\main.cpp(270): warning C4715: 'rotate': not all control paths return a value
+       Link:
+         D:\Pliki programów (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Studia\PP\szablon2\Debug\projekt2vs15.exe" /INCREMENTAL /NOLOGO .\sdl\winlib15\sdl2.lib .\sdl\winlib15\sdl2main.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Studia\PP\szablon2\Debug\projekt2vs15.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Studia\PP\szablon2\Debug\projekt2vs15.lib" /MACHINE:X86 Debug\main.obj
+         projekt2vs15.vcxproj -> D:\Studia\PP\szablon2\Debug\projekt2vs15.exe
+       PostBuildEvent:
+         copy /y "D:\Studia\PP\szablon2\sdl\winlib15\*.dll" D:\Studia\PP\szablon2\Debug\"
+         copy /y "D:\Studia\PP\szablon2\*.bmp" D:\Studia\PP\szablon2\Debug\"
+         :VCEnd
+         D:\Studia\PP\szablon2\sdl\winlib15\concrt140.dll
+         D:\Studia\PP\szablon2\sdl\winlib15\SDL2.dll
+         D:\Studia\PP\szablon2\sdl\winlib15\vccorlib140.dll
+         D:\Studia\PP\szablon2\sdl\winlib15\vcruntime140.dll
+         Liczba skopiowanych plików:         4.
+         D:\Studia\PP\szablon2\Box.bmp
+         D:\Studia\PP\szablon2\Box2.bmp
+         D:\Studia\PP\szablon2\Box3.bmp
+         D:\Studia\PP\szablon2\BoxG2.bmp
+         D:\Studia\PP\szablon2\cos.bmp
+         D:\Studia\PP\szablon2\cs8x8.bmp
+         D:\Studia\PP\szablon2\eti.bmp
+         D:\Studia\PP\szablon2\fl.bmp
+         D:\Studia\PP\szablon2\interface.bmp
+         Liczba skopiowanych plików:         9.
+     1>Done Building Project "D:\Studia\PP\szablon2\projekt2vs15.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.48

@@ -1,0 +1,13 @@
+﻿Build started 2015-12-10 21:36:56.
+     1>Project "D:\Studia\PP\szablon2\projekt2vs13.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (projekt2vs15.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>Link:
+         D:\Pliki programów (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Studia\PP\szablon2\Debug\projekt2vs13.exe" /INCREMENTAL /NOLOGO .\sdl\winlib\sdl2.lib .\sdl\winlib\sdl2main.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Studia\PP\szablon2\Debug\projekt2vs13.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Studia\PP\szablon2\Debug\projekt2vs13.lib" /MACHINE:X86 Debug\main.obj
+     1>sdl2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol __imp__fprintf referenced in function _ShowError
+     1>sdl2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol __imp____iob_func referenced in function _ShowError
+     1>D:\Studia\PP\szablon2\Debug\projekt2vs13.exe : fatal error LNK1120: 2 unresolved externals
+     1>Done Building Project "D:\Studia\PP\szablon2\projekt2vs13.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.57
